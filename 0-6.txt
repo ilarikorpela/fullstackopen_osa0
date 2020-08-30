@@ -1,0 +1,16 @@
+0-6: uusi muistiinpano
+
+
+note over selain:
+pyyntö osoitteeseen new_note_spa
+end note
+
+note over selain:
+Data pyydetään JSON muotoisena
+end note
+
+selain -> palvelin: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+note over palvelin:
+päivitetään data
+end note
